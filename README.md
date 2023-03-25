@@ -20,5 +20,5 @@ Open [http://localhost:3000/ssg](http://localhost:3000/ssg) with your browser to
 But in the live app, only SSR page display time in realtime 
 
 The SSR page always matches the current time because the getServerSideProps function is always called when the page is refreshed.
-Whereas getStaticProps on the SSG page is called only when the page is loaded (1 time when we build this app)
+Whereas getStaticProps on the SSG page is called only when the page is loaded (1 time when we loaded this app in first time)
 
